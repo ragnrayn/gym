@@ -1,0 +1,118 @@
+.hero{
+    width: 100%;
+    height: 800px;
+    background: #20B15A;
+}
+
+.container{
+    max-width: 1230px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header{
+    padding: 18px 0 57px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    margin-right: 40px;
+}
+.menu li:last-child{
+    margin-right: 0;
+}
+
+.menu li a:hover{
+    color: #FFFFFF;
+}
+
+.menu li a {
+    font-size: 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-weight: bold;
+}
+
+.menu li a.active {
+    display: inline-block;
+    padding: 10px 15px;
+    border: 2px solid #224932;
+    border-radius: 10px;
+}
+
+.menu li a.active:hover{
+    background: #224932;
+    color: #FFFFFF;
+}
+
+
+.hero__main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero_main__left{
+    padding-top: 120px;
+}
+
+.left_title{
+    color: #000;
+    font-size: 50px;
+    max-width: 550px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.left_sub__title{
+    max-width: 447px;
+    width: 100%;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 37px;
+}
+
+.main-btn{
+    padding: 20px 30px;
+    background: #224932;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.main-btn:hover{
+    background: #145a31;
+}
+
+.companies{
+    width: 100%;
+    padding: 30px 100px;
+    background: #F8FFF9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.what_we_do{
+    padding: 60px 0 120px 0;
+}
+
+.what_we_do-title{
+    margin-bottom: 20px;
+    color: #20B15A;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
