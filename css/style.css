@@ -116,3 +116,51 @@
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.what_we_do-subtitle{
+    font-size: 30px;
+    max-width: 495px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.what_we_do-titles{
+    margin-bottom: 50px;
+}
+
+.what_we_do-items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.what_we_do-item{
+    padding: 50px 30px;
+}
+
+.item-icon{
+    width: 100px;
+    height: 100px;
+    background: #20B15A;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.item-title{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.item-subtitle{
+    max-width: 300px;
+    width: 100%;
+    margin-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+}
