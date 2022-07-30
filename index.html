@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Desgin Agency</title>
@@ -193,7 +194,7 @@
                 <div class="portfolio__column_left">
                     <div class="portfolio__small_case case">
                         <div class="case__img">
-                            Img
+                            <img src="./img/Screenshot 2022-05-14 at 11.17.png" alt="">
                         </div>
                         <div class="case__title">
                             Digital Marketing Agency Website
@@ -205,43 +206,102 @@
                     </div>
                     <div class="portfolio__big_case case">
                         <div class="case__img">
-                            Img
+                            <img src="./img/Screenshot 2022-05-06 at 10.35.png" alt="">
                         </div>
                         <div class="case__title">
-                            Title
+                            Digital Marketing Agency Website
                         </div>
                         <div class="case__subtitle">
-                            Subtitle
+                            This is a website for a client who want to achieve their goals and meet their users needs
+                            while also increasing their reach. Accross all platforms. This is a website rebrand
                         </div>
                     </div>
                 </div>
                 <div class="portfolio__column_right">
                     <div class="portfolio__big_case case">
                         <div class="case__img">
-                            Img
+                            <img src="./img/Screenshot 2022-05-14 at 11.15.png" alt="">
                         </div>
                         <div class="case__title">
-                            Title
+                            Digital Marketing Agency Website
                         </div>
                         <div class="case__subtitle">
-                            Subtitle
+                            This is a website for a client who want to achieve their goals and meet their users needs
+                            while also increasing their reach. Accross all platforms. This is a website rebrand
                         </div>
                     </div>
                     <div class="portfolio__samll_case case">
                         <div class="case__img">
-                            Img
+                            <img src="./img/Screenshot 2022-05-06 at 10.33.40 PM 6.26.png" alt="">
                         </div>
                         <div class="case__title">
-                            Title
+                            Digital Marketing Agency Website
                         </div>
                         <div class="case__subtitle">
-                            Subtitle
+                            This is a website for a client who want to achieve their goals and meet their users needs
+                            while also increasing their reach. Accross all platforms. This is a website rebrand
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <section class="comments">
+        <div class="container">
+            <div class="swiper-body">
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            Slider 1
+                        </div>
+                        <div class="swiper-slide">Slide 2</div>
+                        <div class="swiper-slide">Slide 3</div>
+                        ...
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script type="module">
+
+        import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
+
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+
+            slidesPerView: 3,
+            slidesPerColumn: 2,
+            spaceBetween: 30,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+        });
+    </script>
 
 
 </body>
