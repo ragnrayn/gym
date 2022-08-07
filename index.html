@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>Desgin Agency</title>
 </head>
 
@@ -18,7 +19,7 @@
             <header class="header">
                 <div class="header_logo">
                     <a href="#">
-                        <img src="./img/logo.png" alt="">
+                        <img src="./img/logo.png" alt="" class="wow animate__animated animate__backInLeft">
                     </a>
                 </div>
                 <div class="header__menu">
@@ -45,7 +46,7 @@
                 </div>
                 <div class="hero_main__right">
                     <div class="right_girl">
-                        <img src="./img/hero-girl.png" alt="">
+                        <img src="./img/hero-girl.png" class="wow animate__animated animate__backInRight">
                     </div>
                 </div>
             </div>
@@ -262,11 +263,62 @@
                     <div class="swiper-wrapper">
                         <!-- Slides -->
                         <div class="swiper-slide">
-                            Slider 1
+                            <div class="slider__comment">
+                                Thank You for your service. I am very pleased with the result. I have seen exponencial
+                                growth in my business and its all thanks to your amazing service
+                            </div>
+                            <div class="slider__comment_owner">
+                                <div class="comment__owner">
+                                    <img src="./img/avatar.png" alt="">
+                                </div>
+                                <div class="comment__owner_position">
+                                    <div class="owner_position__name">
+                                        Emily Stones
+                                    </div>
+                                    <div class="owner_position_role">
+                                        CEO, Marketing Guru
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="swiper-slide">Slide 2</div>
-                        <div class="swiper-slide">Slide 3</div>
-                        ...
+                        <div class="swiper-slide">
+                            <div class="slider__comment">
+                                Thank You for your service. I am very pleased with the result. I have seen exponencial
+                                growth in my business and its all thanks to your amazing service
+                            </div>
+                            <div class="slider__comment_owner">
+                                <div class="comment__owner">
+                                    <img src="./img/avatar.png" alt="">
+                                </div>
+                                <div class="comment__owner_position">
+                                    <div class="owner_position__name">
+                                        Emily Stones
+                                    </div>
+                                    <div class="owner_position_role">
+                                        CEO, Marketing Guru
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider__comment">
+                                Thank You for your service. I am very pleased with the result. I have seen exponencial
+                                growth in my business and its all thanks to your amazing service
+                            </div>
+                            <div class="slider__comment_owner">
+                                <div class="comment__owner">
+                                    <img src="./img/avatar.png" alt="">
+                                </div>
+                                <div class="comment__owner_position">
+                                    <div class="owner_position__name">
+                                        Emily Stones
+                                    </div>
+                                    <div class="owner_position_role">
+                                        CEO, Marketing Guru
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     <!-- If we need navigation buttons -->
@@ -278,8 +330,87 @@
             </div>
         </div>
     </section>
+    <section class="subscribe">
+        <div class="container">
+            <div class="subscribe__body">
+                <div class="subscribe__tile">
+                    SUBSCRIBE
+                </div>
+                <div class="subscribe__subtitle">
+                    Subscribe to get the latest news about us
+                </div>
+                <div class="subscribe__bottom">
+                    Please drop your email below to get daily update about what we do
+                </div>
+                <div class="subscribe__form">
+                    <input type="text" placeholder="Subscribe">
+                    <button type="button" class="subscribe__btn">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__body">
+                <div class="footer__item">
+                    <div class="footer__top">
+                        <div class="footer__logo">
+                            Web Logo
+                        </div>
+                        <div class="footer__subtitle">
+                            Some footer text about the Agency. Just a little description to help people understand you
+                            better
+                        </div>
+                        <div class="footer_socials">
+                            <div class="social">
+                                <a href="#">
+                                    <img src="./img/Vector (1).svg" alt="">
+                                </a>
+                            </div>
+                            <div class="social">
+                                <a href="#">
+                                    <img src="./img/Vector (2).svg" alt="">
+                                </a>
+                            </div>
+                            <div class="social">
+                                <a href="#">
+                                    <img src="./img/Vector (3).svg" alt="">
+                                </a>
+                            </div>
+                            <div class="social">
+                                <img src="./img/Vector.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__copyright">
+                        Copyright Design Agency 2022
+                    </div>
+                </div>
+                <div class="footer__item">
+                    <ul>
+                        <li class="footer__item_header">Quick Links</li>
+                        <li class="footer__item_link"><a href="#">Services</a></li>
+                        <li class="footer__item_link"><a href="#">Portfolio</a></li>
+                        <li class="footer__item_link"><a href="#">About Us </a></li>
+                        <li class="footer__item_link"><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <div class="item__address footer__item_header">
+                        Address
+                    </div>
+                    <div class="item__street">
+                        Design Agency Head Office.
+                        Airport Road
+                        United Arab Emirate
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
+    <script src="./js/wow.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
     <script type="module">
@@ -306,6 +437,10 @@
             },
 
         });
+    </script>
+
+    <script type="module">
+        new WOW().init();
     </script>
 
 
