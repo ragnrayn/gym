@@ -37,7 +37,6 @@
 .menu li a {
     font-size: 16px;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
     color: #000000;
     font-weight: bold;
 }
@@ -69,7 +68,6 @@
     font-size: 50px;
     max-width: 550px;
     width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -78,7 +76,6 @@
     max-width: 447px;
     width: 100%;
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin-bottom: 37px;
 }
@@ -89,7 +86,6 @@
     border: 0;
     border-radius: 10px;
     color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
 
@@ -115,14 +111,12 @@
     color: #20B15A;
     text-transform: uppercase;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .what_we_do-subtitle {
     font-size: 30px;
     max-width: 495px;
     width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
 }
 
@@ -152,7 +146,6 @@
 
 .item-title {
     font-size: 24px;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin-bottom: 15px;
 }
@@ -161,7 +154,6 @@
     max-width: 300px;
     width: 100%;
     margin-bottom: 40px;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     line-height: 25px;
 }
@@ -170,7 +162,6 @@
 .item-btn a {
     padding: 10px 20px;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
     color: #000
 }
 
@@ -216,14 +207,12 @@
 
 .advantage__title {
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
     color: #000;
     margin-bottom: 30px;
 }
 
 .advantages__counter {
     font-size: 36px;
-    font-family: Arial, Helvetica, sans-serif;
     color: #20B15A;
     font-weight: bold;
 }
@@ -258,14 +247,12 @@
     color: #000;
     font-size: 22px;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 20px;
 }
 
 .case__subtitle {
     max-width: 533px;
     width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
     line-height: 25px;
 }
 
@@ -283,7 +270,6 @@
     background: #fff;
     box-shadow: 0px 4px 5px 5px rgba(0,0,0,0.25);
     padding: 40px;
-    font-family: Arial, Helvetica, sans-serif;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
